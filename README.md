@@ -2,6 +2,8 @@
 
 RAG Q&A pipeline with LangGraph, Azure OpenAI, observability (LangSmith), evaluation, and prompt monitoring.
 
+**GitHub repo description (paste in Settings > General > Description):** see [GITHUB_DESCRIPTION.txt](./GITHUB_DESCRIPTION.txt).
+
 This project demonstrates (1) LLM observability via LangSmith tracing, (2) evaluation on a small Q&A dataset with correctness/similarity metrics, and (3) prompt monitoring with versioned prompts and per-run logs (latency, tokens) for quality tracking.
 
 **Tech stack:** Python 3.11+, LangChain, LangGraph, Azure OpenAI, LangSmith.
