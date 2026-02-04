@@ -1,0 +1,24 @@
+# Env and secrets
+.env
+.env.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env/
+
+# Data and persistence (recreate via ingest)
+data/chroma/
+data/runs.jsonl
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+
+# Build and deploy
+dist/
+*.egg-info/

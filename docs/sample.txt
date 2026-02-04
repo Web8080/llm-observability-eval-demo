@@ -1,0 +1,12 @@
+LLM Observability & Evaluation Demo - Sample Document
+
+This project demonstrates a RAG (Retrieval-Augmented Generation) pipeline for document Q&A.
+
+Components:
+- LangChain and LangGraph for the retrieval and generation flow.
+- Azure OpenAI for embeddings and chat.
+- LangSmith for observability: trace IDs, latency, token usage, and prompt/completion visibility.
+- Evaluation on a small Q&A dataset with correctness or similarity metrics.
+- Prompt monitoring: versioned prompts and per-run logs (latency, tokens) for quality tracking.
+
+The pipeline flow is: load documents, chunk them, embed with Azure OpenAI, store in a vector store (Chroma), then for each question retrieve relevant chunks, build context, and call Azure OpenAI chat with a prompt template to produce an answer.

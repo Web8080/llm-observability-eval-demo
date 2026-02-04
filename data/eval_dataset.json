@@ -1,0 +1,7 @@
+[
+  {"question": "What does this project demonstrate?", "expected": "RAG pipeline for document Q&A with observability and evaluation"},
+  {"question": "Which cloud provider is used for the LLM?", "expected": "Azure OpenAI"},
+  {"question": "What is used for observability?", "expected": "LangSmith"},
+  {"question": "What is the retrieval and generation flow built with?", "expected": "LangChain and LangGraph"},
+  {"question": "Where are per-run metrics logged for prompt monitoring?", "expected": "versioned prompts and per-run logs"}
+]
